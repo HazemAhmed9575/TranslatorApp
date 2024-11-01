@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- ===================================== -->
+    <link rel="stylesheet" href="style/bootstrap.min.css" />
+    <link rel="stylesheet" href="style/style.css" />
+    <!-- ==================================== -->
+    <title>Translator</title>
+  </head>
+  <body>
+    <div
+      id="Translator"
+      class="bg-secondary vh-100 d-flex justify-content-center align-items-center">
+      <div class="bg-black rounded p-4 d-flex flex-column gap-4 Translato">
+        <!-- text Translator -->
+        <div
+          class="text-center p-4 d-flex justify-content-center align-items-center">
+          <h1 class="text-white" style="background-color: rgb(4, 28, 64)">
+            Translator App
+          </h1>
+        </div>
+        <!-- end text Translator  -->
+        <!-- textarea Translator -->
+        <div class="w-100 d-flex gap-2 cover ">
+          <textarea
+            id="TexFrom"
+            class="p-2 text-light bg-secondary rounded "
+            rows="3"></textarea>
+
+          <textarea 
+            id="TexTo"
+            class="p-2 rounded text-white bg-dark"
+            rows="3"
+            disabled></textarea>
+        </div>
+        <!-- end textarea Translator   -->
+        <!-- select  -->
+        <div class="d-flex justify-content-around select gap-3">
+          <select
+            id="TranslatFrom"
+            class="text-white bg-dark form-select-sm"
+            aria-label="Small select example"></select>
+          <select
+            id="TranslatTo"
+            class="text-white bg-dark form-select-sm"
+            aria-label="Small select example"></select>
+        </div>
+        <!-- end select  -->
+        <!-- button Translat -->
+        <div class="p-4 d-flex justify-content-center align-items-center">
+          <button id="Translat" class="btn btn-outline-primary">
+            Translat
+          </button>
+        </div>
+        <!-- end button Translat -->
+      </div>
+    </div>
+    <!-- ====================================================== -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+    <!-- ====================================================== -->
+  </body>
+</html>

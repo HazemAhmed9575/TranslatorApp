@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cover{
+  height:15rem ;
+}
+@media screen and (max-width: 400px) {
+
+.Translato{width: 75%;}
+.select{
+  flex-direction: column;
+}
+  
+}
